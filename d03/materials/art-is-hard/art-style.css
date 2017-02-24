@@ -1,0 +1,17 @@
+body{
+  font-family: "arial";
+  color: grey;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 25px;
+}
+p.caption{
+  color: black;
+}
+img.frame{
+  box-shadow: 1px 4px 10px black;
+  border-radius: 10px;
+}

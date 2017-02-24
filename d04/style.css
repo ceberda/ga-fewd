@@ -1,0 +1,14 @@
+body{
+  font-family: "arial";
+}
+#pac{
+  background-color: red
+}
+
+.green{
+  color:green;
+}
+
+.big-text{
+  font-size: 20px
+}
