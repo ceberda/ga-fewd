@@ -1,0 +1,66 @@
+body{
+  color: #444444;
+  font-family: Lato;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  color:red;
+  margin-bottom:5px;
+}
+
+h2 {
+  margin: 5px 0px;
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+}
+
+.nav > a {
+  color: #dddddd;
+  margin-right: 20px;
+}
+
+.nav > a:hover {
+  background-color: black;
+  }
+
+.date{
+  color: #dddddd;
+  }
+
+/*
+"Better Dressed People":
+    black
+
+Links:
+    #DD0000
+
+Links hover:
+    #aa0000
+
+Navigation links:
+    #dddddd
+
+Navigation links hover:
+    black
+
+Date:
+    #cccccc
+
+Article Title
+    black
+
+Copyright
+    #bbbbbb
+    */

@@ -1,0 +1,29 @@
+body{
+  font-family:Open Sans;
+  background: linear-gradient(
+  to bottom,
+      #46739A,
+      white 33%
+      )
+  }
+  .iphoneimg{
+    display: inline-block;
+  }
+
+  .infobox{
+    display: inline-block;
+    border: 1px solid red;
+    font-size: 16px;
+    width: 350px;
+    height: 514px;
+  }
+  
+  .footer{
+    color:: #11395D;
+    padding: 15px 10px 15px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .bold{
+    font-style: bold;
+  }
