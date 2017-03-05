@@ -21,6 +21,11 @@ h2 {
   margin: 5px 0px;
   font-size: 15px;
 }
+h4{
+  color:red;
+  font-weight: bold;
+  text-align: right;
+}
 
 img {
   width: 100%;
@@ -39,28 +44,17 @@ img {
   color: #dddddd;
   }
 
-/*
-"Better Dressed People":
-    black
+.footer > a{
+  color: #DD0000;
+  text-decoration: none;
+  margin-right: 20px;
+  }
+  
+ .footer > a:hover {
+  background-color: #aa0000;
+  } 
 
-Links:
-    #DD0000
-
-Links hover:
-    #aa0000
-
-Navigation links:
-    #dddddd
-
-Navigation links hover:
-    black
-
-Date:
-    #cccccc
-
-Article Title
-    black
-
-Copyright
-    #bbbbbb
-    */
+#copyright{
+  color:#bbbbbb;
+}
+   
