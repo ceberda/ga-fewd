@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ margin-bottom: 20px;
 }
 
 .nav > a:hover {
-  background-color: black;
+  background-color: #dddddd;
 }
 
 img.blog{
@@ -98,6 +98,11 @@ img.ad{
   text-decoration: none;
 }
 
+.footer{
+margin-left: 5%;
+width: 50%;
+}
+
 .footer > a{
   color: #DD0000;
   text-decoration: none;
@@ -113,7 +118,6 @@ img.ad{
   
  .footer > a:hover {
   background-color: #aa0000;
-
   } 
 
 #copyright{
