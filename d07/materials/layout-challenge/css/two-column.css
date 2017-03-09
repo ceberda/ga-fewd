@@ -1,0 +1,19 @@
+.col-1-1 {
+  background-color: #808080;
+  width: 80%;
+  height: 50px;
+}
+
+.col-1-2 {
+  height: 200px;
+  padding-right: 20px;
+}
+
+div.top { 
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #808080;
+  height: 100%;
+}
