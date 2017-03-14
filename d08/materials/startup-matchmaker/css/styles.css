@@ -1,0 +1,143 @@
+/*
+// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+body
+font-family: "Source Sans Pro"
+
+logo, tagline (two brains are better...), actions (Create a Profile; Find a Developer; Find a Designer)
+font-family: "Merriweather", serif;
+
+tagline
+background-color: #C6C6C6;
+
+tagline, crossed out text
+color: #808080;
+
+actions
+background-color: #ededed;
+
+Meet your Match!
+font-family: "Oswald"
+
+Nav Links
+font-family: "Oswald";
+
+Buttons
+font-family: "Oswald";
+background: #C6C6C6;
+
+Create a Profile button
+background-color: yellow;
+
+*/
+
+
+body {
+  font-family: Source Sans Pro;
+}
+
+header{
+  color: yellow;
+}
+
+h1{
+  font-family: Merriweather;
+  padding-left: 30px;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+div.nav{
+  background-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: yellow;
+  padding-bottom: 20px;
+}
+
+nav {
+  text-align: right;
+  padding-top: 2rem;
+}
+
+nav > a {
+  font-family: Oswald;
+  text-decoration: none;
+  color: white;
+  padding-right: 1rem;
+}
+
+div h2 {
+  font-family: Merriweather;
+  background-color: #C6C6C6;
+  font-style: italic;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px 0px;
+}
+
+#crossout{
+  color: #808080;
+  text-decoration: line-through;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
+h4{
+ font-size: 1rem;
+}
+
+
+article > a {
+  font-family: Oswald;
+  background: #C6C6C6;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  padding: 10px 0px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+
+div.cover-photo{
+  width: 100%;
+  height: 350px;
+  background-image: url('../img/coworking.jpg');
+  background-size: cover;
+  background-position: center;
+  }
+
+  h3.match {
+  font-family: Oswald;
+  font-style: bold;
+}
+
+.match > a{
+  background-color: yellow;
+}
+
+.match{
+  background-color: white;
+  opacity: 0.7;
+  box-shadow: 2px 2px 2px #888888;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+div.links{
+  width: 90%;
+}
+
+footer > p {
+  background-color: black;
+  color: white;
+  font-size: .8rem;
+  margin-top: 20px;
+  padding: 10px 0px 10px 20px;
+}
