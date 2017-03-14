@@ -1,39 +1,3 @@
-/*
-// FONT FAMILY HELPERS :)
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
-body
-font-family: "Source Sans Pro"
-
-logo, tagline (two brains are better...), actions (Create a Profile; Find a Developer; Find a Designer)
-font-family: "Merriweather", serif;
-
-tagline
-background-color: #C6C6C6;
-
-tagline, crossed out text
-color: #808080;
-
-actions
-background-color: #ededed;
-
-Meet your Match!
-font-family: "Oswald"
-
-Nav Links
-font-family: "Oswald";
-
-Buttons
-font-family: "Oswald";
-background: #C6C6C6;
-
-Create a Profile button
-background-color: yellow;
-
-*/
-
-
 body {
   font-family: Source Sans Pro;
 }
@@ -86,10 +50,6 @@ div h2 {
   text-decoration: underline;
 }
 
-h4{
- font-size: 1rem;
-}
-
 
 article > a {
   font-family: Oswald;
@@ -98,10 +58,14 @@ article > a {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  width: 90%;
+  width: 70%;
   padding: 10px 0px;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #888888;
+}
+
+article > p{
+  margin-right: 80px;
 }
 
 
@@ -113,9 +77,8 @@ div.cover-photo{
   background-position: center;
   }
 
-  h3.match {
+h3.match {
   font-family: Oswald;
-  font-style: bold;
 }
 
 .match > a{
@@ -128,10 +91,6 @@ div.cover-photo{
   box-shadow: 2px 2px 2px #888888;
   padding: 30px;
   margin-top: 15px;
-}
-
-div.links{
-  width: 90%;
 }
 
 footer > p {
