@@ -47,7 +47,7 @@ div h2 {
 }
 
 #underline{
-  text-decoration: underline;
+  border-bottom: 1px solid yellow;
 }
 
 
