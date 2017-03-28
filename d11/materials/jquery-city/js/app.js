@@ -3,17 +3,17 @@
 
 
 $("img#first").on("click", function(){
-  $("figure").attr('src', "../img/1.jpg");
+  $("figure img").attr('src', "./img/1.jpg");
 });
 
 $("img#second").on("click", function(){
-  $("figure").attr('src', "../img/2.jpg");
+  $("figure img").attr('src', "./img/2.jpg");
 });
 
 $("img#third").on("click", function(){
-  $("figure").attr('src', "../img/3.jpg");
+  $("figure img").attr('src', "./img/3.jpg");
 });
 
 $("img#fourth").on("click", function(){
-  $("figure").attr('src', "../img/4.jpg");
+  $("figure img").attr('src', "./img/4.jpg");
 });
