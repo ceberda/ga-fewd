@@ -11,3 +11,51 @@
 // - .click()
 // - . text() or .html()
 // - .css()
+var centerNum = 0;
+
+$("#a10").on("click", function(){
+    centerNum = centerNum + 10;
+    $("#out").text(centerNum);
+});
+
+$("#a20").on("click", function(){
+    centerNum = centerNum + 20;
+    $("#out").text(centerNum);
+});
+
+$("#a30").on("click", function(){
+    centerNum = centerNum + 30;
+    $("#out").text(centerNum);
+});
+
+$("#n10").on("click", function(){
+    centerNum = centerNum  - 10;
+    $("#out").text(centerNum);
+});
+
+$("#n20").on("click", function(){
+    centerNum = centerNum  - 20;
+    $("#out").text(centerNum);
+});
+
+$("#n30").on("click", function(){
+    centerNum = centerNum  - 30;
+    $("#out").text(centerNum);
+});
+
+$("#red").on("click", function(){
+    $("#out").toggleClass("red");
+    $("#out").removeClass("blue");
+});
+
+$("#blue").on("click", function(){
+    $("#out").toggleClass("blue");
+    $("#out").removeClass("red");
+});
+
+$("#out").on("click", function(){
+  centerNum = 0;
+  $("#out").text(centerNum);
+  $("#out").removeClass("red");
+  $("#out").removeClass("blue");
+  });
