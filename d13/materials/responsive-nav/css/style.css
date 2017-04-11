@@ -1,0 +1,65 @@
+header {
+  background-color: black;
+}
+
+header h1 {
+  padding-left: 20px;
+  color: white;
+}
+
+header nav {
+  text-align: right;
+  padding: 1.9em 0;
+}
+
+nav a {
+  padding: 0 3px;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.buttonMenu{
+  display: none;
+}
+
+@media (max-width: 767px) {
+
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .hamburger > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .buttonMenu {
+    display: inline-block;
+    width:100%;
+  }
+
+  ul{ 
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+  }
+
+  ul a{
+    color: white;
+  }
+
+  li{
+    padding: 1.5em 0;
+   }
+}
