@@ -33,24 +33,24 @@ $("ul").on("click", function(event) {
   });
 })
 
-// $("button.filter").on("click", function() {
-//   $("ul").children().remove();
+$("button.filter").on("click", function() {
+  $("ul").children().remove();
 
-//   movies.forEach(function(aSingleMovie) {
-//     var scoreAsInt = parseInt(aSingleMovie["score"])
-//     if ( scoreAsInt > 50 ) {
-//       var li = $("<li>" + aSingleMovie["title"] + "</li>");
-//       $("ul.search-history").append(li);
-//     }
-//   })
-// })
+  movies.forEach(function(aSingleMovie) {
+    var scoreAsInt = parseInt(aSingleMovie["score"])
+    if ( scoreAsInt > 50 ) {
+      var li = $("<li>" + aSingleMovie["title"] + "</li>");
+      $("ul.search-history").append(li);
+    }
+  })
+})
 
-// $("button.listAll").on("click", function(){
-//   movies.forEach(function(searchHistory){
-//     var li = $("<li>" + searchHistory["title"] + "</li>");
-//     $("ul.search-history").append(li);
-//     })
-//   })
+$("button.listAll").on("click", function(){
+  movies.forEach(function(searchHistory){
+    var li = $("<li>" + searchHistory["title"] + "</li>");
+    $("ul.search-history").append(li);
+    })
+  })
   
 
 

@@ -1,0 +1,36 @@
+.navbar-custom{
+  background: #282828;
+}
+
+header, section.success{
+  background-color: #84a4d8;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #84a4d8;
+    border-color: #84a4d8;
+    font-weight: 700;
+  }
+
+
+footer .footer-above{
+  background-color: #84a4d8;
+  }
+
+footer .footer-below{
+  background-color: #282828;
+}
+#map {
+  width: 100%;
+  height: 200px;
+  background-color: grey;
+}
+
+h2{
+  padding-bottom: 30px;
+}
+
+a.logo{
+  font-family: 'Monoton', cursive;
+}
